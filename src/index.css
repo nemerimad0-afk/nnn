@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:wght@200..1000&family=Cinzel:wght@400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #111e12;
+  --color-olive-dark: #162618;
+  --color-olive-medium: #243d27;
+  --color-olive-light: #3f6042;
+  --color-olive-sage: #819b83;
+  --color-olive-gold: #b39139;
+  --color-gold-light: #f3eac8;
+  --color-earth-sand: #f6f3eb;
+  --color-timber: #331f16;
+  
+  --font-cairo: "Cairo", ui-sans-serif, system-ui, sans-serif;
+  --font-amiri: "Amiri", serif;
+  --font-cinzel: "Cinzel", serif;
+}
+
+@layer base {
+  body {
+    background-color: #050805;
+    color: #f6fdf7;
+    font-family: var(--font-cairo);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .text-olive-gold {
+    color: var(--color-olive-gold);
+  }
+  .bg-olive-gold {
+    background-color: var(--color-olive-gold);
+  }
+  .bg-olive-dark {
+    background-color: var(--color-olive-dark);
+  }
+  .border-olive-light {
+    border-color: var(--color-olive-light);
+  }
+}

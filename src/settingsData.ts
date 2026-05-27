@@ -1,0 +1,30 @@
+import { SiteSettings } from "./settingsTypes";
+
+export const settingsData: SiteSettings = {
+  "musicUrl": "https://www.image2url.com/r2/default/audio/1779605277020-c303c35e-9a3a-48b9-9632-7122a3d4f357.mp3",
+  "primaryBgColor": "#070b07",
+  "primaryColor": "#142215",
+  "accentColor": "#d4af37",
+  "textColor": "#faf7ec",
+  "portalTitle": "الزيتونة",
+  "portalSubtitle": "نُرحّب بكم في صرح الضيافة المتكامل؛ ثلاثة أقسام نُجسّد بها عراقة المذاق الكنعاني وتفاصيل مناسباتكم السعيدة والولائم الفخمة بفرش الهوى الخلابة.",
+  "menuTabTitle": "مطعم وكافيه الزيتونة",
+  "menuTabDesc": "تذوقوا المأكولات الإيطالية الشهية والمشاوي والريش المحمرة على لهب كوخ الحطب البلدي والحلويات والمشروبات المنعشة.",
+  "eventsTabTitle": "أفراح ومناسبات الزيتونة",
+  "eventsTabDesc": "صالاتنا مهيأة بأحدث التجهيزات الضوئية والصوتية لإحياء سهراتكم وليالي العمر تحت زينة النجوم وممرات الياسمين والورد.",
+  "cateringTabTitle": "التواصي وولائم المناسبات",
+  "cateringTabDesc": "ولائم وقرب الضيافة الممرونة الفخمة المجهزة لتصل في الموعد ساخنة غضّة لتبيض وجوهكم في مناسباتكم الكبرى والعائلية المتميزة.",
+  "phone": "0598467629",
+  "whatsapp": "972598467629",
+  "facebookUrl": "https://www.facebook.com/share/17ijDmHrak/",
+  "instagramUrl": "https://www.instagram.com/alzaytounagarden?igsh=d201ZWE1dm9lOHoy",
+  "googleMapsUrl": "https://maps.app.goo.gl/4CExVi9K2ynHPcpu8?g_st=ac",
+  "addressText": "فلسطين - الخليل - فرش الهوى -بير عركا",
+  "workingHoursText": "مفتوح يومياً من الساعة 10:00 صباحاً حتى 12:00 ليلاً",
+  "footerDesc": "متعة هواء الحدائق المنعشة مع المذاق البلدي الساحر. غايتنا خدمتكم بأعلى معايير الراحة والضيافة.",
+  "portalBg": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&q=80&w=1600",
+  "menuBg": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=1600",
+  "weddingBg": "https://i.ytimg.com/vi/IhCmfBQiRW8/maxresdefault.jpg",
+  "cateringBg": "https://asif.org/wp-content/uploads/2023/03/Untitled-Capture9112-scaled.jpg",
+  "logoUrl": "/logo.png"
+};

@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: Remix: alzaytona menu",
+  "description": "Build elegant, mobile-responsive digital menus for restaurants and cafes with instant QR code access and category browsing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
